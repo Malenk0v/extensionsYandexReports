@@ -11,7 +11,7 @@ const App: React.FC = () => {
         <FormForReports />
         <Menu />
       </div>
-      <div>
+      <div className="AppMenu">
         <AddReport />
       </div>
     </div>

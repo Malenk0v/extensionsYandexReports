@@ -12,3 +12,10 @@
   max-width: 620px;
   min-height: 400px;
 }
+
+.AppMenu {
+  max-width: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -115,7 +115,9 @@ export const ReportSlice = createSlice({
         : [action.payload];
       window.localStorage.setItem('listLocalState', JSON.stringify(listAfter));
       state.reports = createListReports();
-      console.log('fi');
+    },
+    updateState: (state) => {
+      state.reports = createListReports();
     },
   },
 });
@@ -127,6 +129,7 @@ export const {
   setIsDateTo,
   getReport,
   addReports,
+  updateState,
 } = ReportSlice.actions;
 
 export default ReportSlice.reducer;
