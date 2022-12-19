@@ -1,0 +1,30 @@
+.link {
+  font-size: 14px;
+}
+.wrapper {
+}
+
+.forUl {
+  min-width: 200px;
+  text-align: start;
+  padding: 0;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 250px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+li {
+  color: whitesmoke;
+  list-style-position: inside;
+  line-height: 25px;
+}
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+li:hover {
+  background-color: rgba(245, 245, 245, 0.301);
+}

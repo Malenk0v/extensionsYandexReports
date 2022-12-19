@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 10px 20px;
+  max-width: 300px;
+  /* border-right: 1px solid #ffc106; */
+}
+
+select {
+  max-width: 280px;
+}
